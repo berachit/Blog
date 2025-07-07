@@ -1,7 +1,7 @@
-import { config } from "./config/config";
+import { conf } from "./conf/conf";
 
 function App() {
-console.log(config.collectionId);
+console.log(conf.collectionId);
 
   return (
     <>
